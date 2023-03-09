@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html,
+.root-container {
+  min-height: 100vh;
+}
+
+.border-dotted {
+  border-bottom: 2px dotted #3bc9db;
+}
+
+.fas {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #364fc7;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.order p {
+  font-size: 20px;
+  width: 30px;
+}
+
+.order {
+  background-color: #b197fc;
+  color: #fff;
+}
+
+.primary-details,
+.timeline-details {
+  width: 75%;
+}
+
+.row {
+  min-height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .primary-details,
+  .timeline-details {
+    width: 100%;
+  }
+}

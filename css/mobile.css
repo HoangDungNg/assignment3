@@ -1,0 +1,84 @@
+/**Mobiles */
+@media (max-width: 500px) {
+  #banner {
+    height: 550px;
+  }
+
+  .banner-text h1 {
+    font-size: 30px;
+    width: 300px;
+  }
+
+  #nav-bar .nav-item {
+    border: none;
+    padding: 10px;
+  }
+
+  #about {
+    background: linear-gradient(180deg, #f7f7f7 50%, #f0f0f0 50%);
+  }
+
+  .inner-item {
+    width: auto;
+  }
+
+  #certificate .certificate-container {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  #certificate .certificate-img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .separate-line {
+    border: none;
+  }
+
+  .line {
+    grid-row: auto;
+  }
+
+  #project .projects-container {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  #project .inner-project,
+  #project img {
+    width: auto;
+  }
+
+  #project .other-info,
+  #project .spec-parent {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #project .project-name p {
+    font-size: 15px;
+  }
+
+  .spec-parent p,
+  .year p,
+  #project table td {
+    font-size: 14.5px;
+  }
+
+  #footer .contact-container {
+    gap: 20px;
+  }
+
+  #footer .footer-icon {
+    font-size: 40px;
+  }
+}
+
+/**Smaller mobile */
+@media (max-width: 350px) {
+  .banner-text h1 {
+    font-size: 25px;
+    width: 250px;
+  }
+}

@@ -1,0 +1,46 @@
+/**Tablets and under */
+@media (max-width: 1000px) {
+  .banner-text h1 {
+    font-size: 40px;
+    width: 400px;
+  }
+
+  #job-info .icons-head {
+    font-size: 40px;
+  }
+
+  .inner-item {
+    width: 320px;
+  }
+
+  #certificate .inner-certificate-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #project .inner-project,
+  #project img {
+    width: 200px;
+  }
+
+  #project .projects-container {
+    gap: 20px;
+  }
+
+  #project .other-info {
+    align-items: flex-start;
+  }
+
+  #project .spec-parent {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .project-icon {
+    width: 20px;
+  }
+
+  #project .spec-container {
+    width: 100px;
+  }
+}

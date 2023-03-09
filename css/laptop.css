@@ -1,0 +1,59 @@
+/**Large Laptop */
+@media (min-width: 1000px) {
+  /**Text */
+
+  .section-title {
+    font-size: 2em;
+  }
+
+  .colored-list .colored-list-item .organization {
+    font-size: 18px;
+  }
+
+  #nav-bar .nav-item > a,
+  #about p,
+  #personal-info ul,
+  .job-responsibilities p,
+  .item p,
+  #certificate .certificate-name,
+  #project .project-name p {
+    font-size: 16px;
+  }
+
+  .spec-parent p,
+  .year p,
+  #project table td {
+    font-size: 15px;
+  }
+
+  /**Item inside job-info section */
+  .inner-item {
+    height: 730px;
+  }
+
+  .inner-item-sm {
+    height: 490px;
+  }
+
+  /**Gap in project section */
+  #project .other-info,
+  #project .spec-parent {
+    gap: 10px;
+  }
+}
+
+/**Smaller Laptop */
+@media (max-width: 1440px) {
+  .inner-item {
+    width: auto;
+  }
+
+  #project .inner-project,
+  #project img {
+    width: 300px;
+  }
+
+  #certificate .inner-certificate-container {
+    gap: 10px;
+  }
+}

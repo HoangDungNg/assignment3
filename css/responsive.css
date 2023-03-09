@@ -1,0 +1,152 @@
+/**Large Laptop */
+@media (min-width: 1000px) {
+  .inner-item {
+    height: 730px;
+  }
+
+  .inner-item-sm {
+    height: 440px;
+  }
+}
+
+/**Smaller Laptop */
+@media (max-width: 1440px) {
+  .inner-item {
+    width: auto;
+  }
+
+  #project .inner-project,
+  #project img {
+    width: 300px;
+  }
+
+  #certificate .inner-certificate-container {
+    gap: 10px;
+  }
+}
+
+/**Tablets and under */
+@media (max-width: 1000px) {
+  .banner-text h1 {
+    font-size: 40px;
+    width: 400px;
+  }
+
+  #job-info .icons-head {
+    font-size: 40px;
+  }
+
+  .item:nth-child(4) .inner-item {
+    height: 480px;
+  }
+
+  .inner-item {
+    width: 320px;
+  }
+
+  #certificate .inner-certificate-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #project .inner-project,
+  #project img {
+    width: 200px;
+  }
+
+  #project .projects-container {
+    gap: 20px;
+  }
+
+  #project .other-info {
+    align-items: flex-start;
+  }
+
+  #project .spec-parent {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .project-icon {
+    width: 20px;
+  }
+
+  #project .spec-container {
+    width: 100px;
+  }
+}
+
+/**Mobiles */
+@media (max-width: 500px) {
+  #banner {
+    height: 550px;
+  }
+
+  .banner-text h1 {
+    font-size: 30px;
+    width: 300px;
+  }
+
+  #nav-bar .nav-item {
+    border: none;
+    padding: 10px;
+  }
+
+  #about {
+    background: linear-gradient(180deg, #f7f7f7 50%, #f0f0f0 50%);
+  }
+
+  .inner-item {
+    width: auto;
+  }
+
+  #certificate .certificate-container {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  #certificate .certificate-img {
+    width: 250px;
+    height: 200px;
+  }
+
+  .separate-line {
+    border: none;
+  }
+
+  .line {
+    grid-row: auto;
+  }
+
+  #project .projects-container {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+
+  #project .inner-project,
+  #project img {
+    width: auto;
+  }
+
+  #project .other-info,
+  #project .spec-parent {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #footer .contact-container {
+    gap: 20px;
+  }
+
+  #footer .footer-icon {
+    font-size: 40px;
+  }
+}
+
+/**Smaller mobile */
+@media (max-width: 350px) {
+  .banner-text h1 {
+    font-size: 25px;
+    width: 250px;
+  }
+}
